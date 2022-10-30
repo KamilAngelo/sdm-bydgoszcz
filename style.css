@@ -15,17 +15,31 @@ Version: 1.0
 }
 html {
     scroll-behavior: smooth;
+    font-family: var(--poppinsfont);
+    width: 100%;
 }
 body {
     margin: 0;
     padding: 0;
     width: 100%;
-    height: 100%;
     box-sizing: border-box;
+}
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
 }
 a {
     text-decoration: none;
-    color: #650c3a;
+    color: black;
+}
+.big-h1 {
+    color: white;
+    text-align: center;
+    width: 100%;
+    font-size: 34px;
+    font-family: var(--poppinsfont);
 }
 .bold {
     font-weight: bold;
@@ -40,4 +54,116 @@ a {
     border-left: 5px solid transparent;
     border-right: 5px solid transparent;
     border-top: 5px solid black;
+}
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+header {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 30px;
+    box-sizing: border-box;
+    border-bottom: 1px solid var(--blue);
+}
+.header-logo > img {
+    width: 200px;
+}
+.header-menu {
+    width: 70%;
+}
+.header-menu > ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    list-style-type: none;
+    font-family: var(--latofont);
+}
+.header-menu a:hover {
+    color: var(--blue);
+    font-weight: 600;
+}
+.sign-in-button {
+    background-color: var(--blue);
+    border: 0;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+    cursor:pointer;
+}
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.index-section {
+    display: block;
+    width: 100%;
+    height: 100vh;
+    padding: 50px;
+    box-sizing: border-box;
+}
+.section1 {
+    background-color: var(--yellow);
+}
+.section2 {
+    background-image: url("https://www.ekai.pl/wp-content/uploads/2018/05/26108993367_6e41499ce7_k-1024x683.jpg");
+    background-color: var(--green);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.section3 {
+    background-color: var(--green);
+}
+.section-p {
+    /* text-align: justify; */
+    color: white;
+    font-size: 24px;
+    width: 40%;
+    max-width: 600px;
+    letter-spacing: 1px;
+    line-height: 1.4;
+    margin-right: 30px;
+    box-sizing: border-box;
+}
+@media only screen and (max-width: 1100px) {
+    .index-section {
+        padding: 20px;
+    }
+    .section3 {
+        flex-direction: column;
+    }
+    .section-p {
+        width: 100%;
+        max-width: 100%;
+        text-align: center;
+        margin: 0 0 20px 0;
+        font-size: 22px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .section3 {
+        height: auto
+    }
+    .header-menu {
+        display: none;
+    }
 }
