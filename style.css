@@ -8,15 +8,22 @@ Version: 1.0
     --red: rgb(231, 36, 14);
     --green: rgb(24, 134, 19);
     --yellow: rgb(247, 183, 0);
-    --blue: rgb(0, 165, 241);
+    --blue: rgb(0, 166, 242);
+    --darkblue: rgb(0, 124, 182);
+    --darkcontent: rgb(101, 12, 58);
+    --creamwhite: rgb(255, 250, 227);
     --latofont: 'Lato', sans-serif;
     --robotofont: 'Roboto', sans-serif;
     --poppinsfont: 'Poppins', sans-serif;
+    --smallfont: 12px;
+    --regfont: 24px;
+    --bigfont: 34px;
 }
 html {
     scroll-behavior: smooth;
     font-family: var(--poppinsfont);
     width: 100%;
+    color: var(--darkcontent);
 }
 body {
     margin: 0;
@@ -39,13 +46,51 @@ a {
     text-align: center;
     width: 100%;
     font-size: 34px;
+    font-family: var(--poppinsfont);    
+}
+.bottom-h2 {
+    color: white;
+    font-weight: 500;
+    text-align: center;
+    width: 100%;
     font-family: var(--poppinsfont);
+    text-decoration: underline;
 }
 .bold {
     font-weight: bold;
 }
 .thin {
     font-weight: 300;
+}
+.uline {
+    text-decoration: underline;
+}
+.center {
+    text-align: center;
+}
+.textleft {
+    text-align: left;
+}
+.justified {
+    text-align: justify;
+}
+.smallfont {
+    font-size: var(--smallfont);
+}
+.regfont {
+    font-size: var(--regfont);
+}
+.bigfont {
+    font-size: var(--bigfont);
+}
+.blue{
+    color: var(--blue);
+}
+.darkblue{
+    color: var(--darkblue);
+}
+.darkcontent{
+    color: var(--darkcontent);
 }
 .triangle {
     display: block;
@@ -78,7 +123,7 @@ header {
     box-sizing: border-box;
     border-bottom: 1px solid var(--blue);
 }
-.header-logo > img {
+.header-logo img {
     width: 200px;
 }
 .header-menu {
@@ -86,6 +131,8 @@ header {
 }
 .header-menu > ul {
     display: flex;
+    text-align: center;
+    gap:8px;
     flex-direction: row;
     justify-content: space-between;
     width: 100%;
@@ -105,6 +152,9 @@ header {
     font-weight: 600;
     cursor:pointer;
 }
+.sign-in-button:hover {
+    background-color: var(--darkblue);
+}
 footer {
     display: flex;
     flex-direction: row;
@@ -119,8 +169,35 @@ footer {
     padding: 50px;
     box-sizing: border-box;
 }
+.section-p {
+    font-size: 24px;
+    max-width: 600px;
+    letter-spacing: 1px;
+    line-height: 1.4;
+    box-sizing: border-box;
+
+}
 .section1 {
-    background-color: var(--yellow);
+    background-color: var(--creamwhite);
+}
+.section1-p {
+    color: var(--darkblue);
+    width: 100%;
+    margin-right: 30px;
+}
+.section1-slider {
+    width: 40%;
+    height: auto;
+    max-height: 300px;
+    position: relative;
+}
+.slider {
+    width: 100%;
+    height: auto;
+    max-height: 300px;
+    object-fit: cover;
+    filter: brightness(0.4);
+    border-radius: 10px;
 }
 .section2 {
     background-image: url("https://www.ekai.pl/wp-content/uploads/2018/05/26108993367_6e41499ce7_k-1024x683.jpg");
@@ -128,26 +205,28 @@ footer {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    backdrop-filter: blur(5px);
 }
 .section3 {
     background-color: var(--green);
+    height: auto
 }
-.section-p {
+.section3-p {
     /* text-align: justify; */
     color: white;
-    font-size: 24px;
     width: 40%;
-    max-width: 600px;
-    letter-spacing: 1px;
-    line-height: 1.4;
     margin-right: 30px;
-    box-sizing: border-box;
+    text-shadow: 3px 3px 3px rgb(46, 48, 64);
+}
+.section3 .big-h1 {
+    
+    text-shadow: 3px 3px 3px rgb(46, 48, 64);
 }
 @media only screen and (max-width: 1100px) {
     .index-section {
         padding: 20px;
     }
-    .section3 {
+    .flex-row {
         flex-direction: column;
     }
     .section-p {
@@ -155,7 +234,7 @@ footer {
         max-width: 100%;
         text-align: center;
         margin: 0 0 20px 0;
-        font-size: 22px;
+        font-size: 24px;
     }
 }
 

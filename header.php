@@ -12,14 +12,17 @@
     <body>
         <header>
                <div class="header-logo flex-center">
-                    <img src="<?php bloginfo('template_url'); ?>/media/logo.png" alt="sdm-logo" />
+                    <a href="/">
+                        <img src="<?php bloginfo('template_url'); ?>/media/logo.png" alt="sdm-logo" />
+                    </a>
                </div>
                <div class="header-menu flex-center">
                     <ul>
-                        <li class="flex-center"><a href="">STRONA GŁÓWNA</a></li>
                         <li class="flex-center"><a href="">IDEA ŚDM</a></li>
                         <li class="flex-center"><a href="">LIZBONA 2023</a></li>
                         <li class="flex-center"><a href="">DIECEZJA BYDGOSKA</a></li>
+                        <li class="flex-center"><a href="">PUNKTY PRZYGOTOWAŃ</a></li>
+                        <li class="flex-center"><a href="">MASZ PYTANIE?</a></li>
                         <li class="flex-center"><a href=""><button class="sign-in-button">ZAPISZ SIĘ!</button></a></li>
                     </ul>
                </div>
