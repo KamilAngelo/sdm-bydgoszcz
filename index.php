@@ -1,16 +1,33 @@
 <?php get_header(); ?>
-
+<link rel="stylesheet" href="style-index.css">
 <div class="container">
     <section class="index-section section1">
         <div class="flex-row">
             <div style="width: 40%;">
-                <h1 class="big-h1 textleft blue" style="font-size: calc(2.4vw + 12px);">Grupa centralna<br/> Diecezji Bydgoskiej</h1>
-                <p class="section1-p section-p">Jest to oficjalna polska wersja hymnu Światowych Dni Młodzieży w Lizbonie w 2023 roku „Ha pressa no ar” zrealizowana we współpracy</p>
+                <h1 class="big-h1 textleft" style="font-size: calc(2.4vw + 12px); color: black;">Grupa centralna<br/> <span class="blue">Diecezji Bydgoskiej</span></h1>
+                <p class="section1-p section-p">Tutaj będą jakieś głupotki o tym, że serdecznie zapraszamy do niesamowitej podróży w jednej z ośmiu grup wyjeżdżającej z naszej diecezji w ramach projektu "Z Kujaw i Pomorza do Lizbony" bla bla.</p>
             </div>
             <div class="section1-slider">
-                <h1 class="big-h1" style="position: absolute; z-index: 10; color: white; bottom: 20%; left: 0; font-weight: 500;">I spotkanie organizacyjne</h1>
-                <p style="position: absolute; z-index: 10; color: white; bottom: 20px; right: 20px;">Zobacz więcej...</p>
+                <h1 class="big-h1 zindex10" style="bottom: 20%; left: 0; font-weight: 500; padding-left: 30px; text-align: left;">I spotkanie organizacyjne</h1>
+                <p class="zindex10" style="bottom: 20px; right: 20px;">Zobacz więcej...</p>
+                <p class="center bigfont zindex10" style="bottom: 0; width: 100%;">. . .</p>
+                <!-- to są divy zrobione w kółka display: inline-block z 1 2 3 ^ -->
                 <img class="slider" src="http://diecezja.bydgoszcz.pl/wp-content/gallery/z-kujaw-do-lizbony-23-10-22/2.jpg"/>
+            </div>
+        </div>
+        <h1 class="big-h1" style="color:var(--darkcontent)">
+            Etapy Światowych Dni Młodzieży:
+        </h1>
+        <div class="flex-row">
+            <div class="etapy-div">
+                <img src="<?php bloginfo('template_url'); ?>/media/calendar.png" alt="kalendarz-logo" width="40px"/>
+                <p>26-31 lipca 2023 r.</p>
+                <h2 class="big-h2">Dni w Diecezjach Portugalii</h2>
+            </div>
+            <div class="etapy-div">
+                <img src="<?php bloginfo('template_url'); ?>/media/calendar.png" alt="kalendarz-logo" width="40px"/>
+                <p>1-6 sierpnia 2023 r.</p>
+                <h2 class="big-h2">Wydarzenia Centralne w Lizbonie</h2>
             </div>
         </div>
     </section>
@@ -31,11 +48,6 @@ ads
     <section class="index-section section4">
         <h1 class="big-h1" style="color: var(--darkcontent);">
             Grupy wyjeżdżające na ŚDM z naszej Diecezji:
-        </h1>
-    </section>
-    <section class="index-section section5">
-        <h1 class="big-h1" style="color:var(--darkcontent)">
-            Etapy Światowych Dni Młodzieży:
         </h1>
     </section>
 </div>

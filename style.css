@@ -11,6 +11,7 @@ Version: 1.0
     --blue: rgb(0, 166, 242);
     --darkblue: rgb(0, 124, 182);
     --darkcontent: rgb(101, 12, 58);
+    --lightgrey: rgb(240, 238, 241);
     --creamwhite: rgb(255, 250, 227);
     --latofont: 'Lato', sans-serif;
     --robotofont: 'Roboto', sans-serif;
@@ -179,11 +180,13 @@ footer {
 }
 .section1 {
     background-color: var(--creamwhite);
+    height: auto;
 }
 .section1-p {
     color: var(--darkblue);
     width: 100%;
     margin-right: 30px;
+    height: auto;
 }
 .section1-slider {
     width: 40%;
@@ -198,6 +201,25 @@ footer {
     object-fit: cover;
     filter: brightness(0.4);
     border-radius: 10px;
+}
+.zindex10 {
+    position: absolute; 
+    z-index: 10; 
+    color: white;
+}
+.etapy-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 25%;
+    height: 300px;
+    background-color: var(--lightgrey);
+    -webkit-box-shadow: 8px 8px 24px 0px var(--blue);
+    -moz-box-shadow: 8px 8px 24px 0px var(--blue);
+    box-shadow: 8px 8px 24px 0px var(--blue);
+
 }
 .section2 {
     background-image: url("https://www.ekai.pl/wp-content/uploads/2018/05/26108993367_6e41499ce7_k-1024x683.jpg");
