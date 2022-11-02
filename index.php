@@ -34,8 +34,8 @@
         </h1>
     </section>
     <section class="index-section section2">
-        <h1 class="big-h1 zindex10">Zobacz, jak było w poprzednich latach!</h1>
-        <p style="color: white; z-index: 100;" class="big-h1 index10">-tu bedzie galeria z odnosnikiem do [historii] i [jak wygladaja sdm] z filmikiem promocyjnym-</p>dsafssdfsdf
+        <h1 class="big-h1 zindex10">Tak było w poprzednich latach</h1>
+        <p style="color: white; z-index: 100; position: absolute; top: 100px;">-tu bedzie galeria z odnosnikiem do [historii] i [jak wygladaja sdm] z filmikiem promocyjnym-</p>dsafssdfsdf
     </section>
     <section class="index-section section3">
         <h1 class="big-h1" style="font-weight: 500;">Poznaj Hymn ŚDM w Lizbonie!</h1>

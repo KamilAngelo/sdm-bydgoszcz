@@ -2,7 +2,6 @@
 .big-h1 {
     color: white;
     text-align: center;
-    width: 100%;
     font-size: 34px;
     font-family: var(--poppinsfont);    
     padding: 0 0 50px 0;
@@ -107,9 +106,7 @@
     padding: 0 0 50px 0;
     margin: 0;
 }
-.section1b {
 
-}
 .section2 {
     position: relative;
 }
@@ -150,6 +147,7 @@
     flex-direction: column;
     align-items: center;
     height: auto;
+    background-color: var(--creamwhite);
     /* justify-content: center; */
 }
 .grupy-row {
@@ -170,9 +168,6 @@
     .index-section {
         padding: 20px;
     }
-    .flex-row {
-        flex-direction: column;
-    }
     .section-p {
         width: 100%;
         max-width: 100%;
@@ -180,13 +175,14 @@
         margin: 0 0 20px 0;
         font-size: 24px;
     }
+    .section3 iframe {
+        max-width: 100%;
+        height: auto;
+    }
 }
 
 @media only screen and (max-width: 800px) {
     .section3 {
         height: auto
-    }
-    .header-menu {
-        display: none;
     }
 }
