@@ -3,16 +3,18 @@ Theme name: SDM Bydgoszcz
 Author: Kamil Kolanowski
 Description: WP theme for "Z Kujaw i Pomorza do Lizbony"
 Version: 1.0
+Sdmbydgoszcz2022.
 */
 :root {
     --red: rgb(231, 36, 14);
-    --green: rgb(24, 134, 19);
+    --green: #188613;
     --yellow: rgb(247, 183, 0);
     --blue: rgb(0, 166, 242);
     --darkblue: rgb(0, 124, 182);
     --darkcontent: rgb(101, 12, 58);
-    --lightgrey: rgb(240, 238, 241);
-    --creamwhite: rgb(255, 250, 227);
+    --lightgrey: rgb(243, 243, 243);
+    --grey: rgb(220,220,220);
+    --creamwhite: rgb(255, 252, 241);
     --latofont: 'Lato', sans-serif;
     --robotofont: 'Roboto', sans-serif;
     --poppinsfont: 'Poppins', sans-serif;
@@ -41,21 +43,6 @@ body {
 a {
     text-decoration: none;
     color: black;
-}
-.big-h1 {
-    color: white;
-    text-align: center;
-    width: 100%;
-    font-size: 34px;
-    font-family: var(--poppinsfont);    
-}
-.bottom-h2 {
-    color: white;
-    font-weight: 500;
-    text-align: center;
-    width: 100%;
-    font-family: var(--poppinsfont);
-    text-decoration: underline;
 }
 .bold {
     font-weight: bold;
@@ -122,7 +109,7 @@ header {
     justify-content: space-between;
     padding: 30px;
     box-sizing: border-box;
-    border-bottom: 1px solid var(--blue);
+    border-bottom: 2px solid var(--grey);
 }
 .header-logo img {
     width: 200px;
@@ -152,6 +139,7 @@ header {
     color: white;
     font-weight: 600;
     cursor:pointer;
+    transition: all .3s ease-in-out;
 }
 .sign-in-button:hover {
     background-color: var(--darkblue);
@@ -162,109 +150,4 @@ footer {
     justify-content: space-around;
     flex-wrap: wrap;
     width: 100%;
-}
-.index-section {
-    display: block;
-    width: 100%;
-    height: 100vh;
-    padding: 50px;
-    box-sizing: border-box;
-}
-.section-p {
-    font-size: 24px;
-    max-width: 600px;
-    letter-spacing: 1px;
-    line-height: 1.4;
-    box-sizing: border-box;
-
-}
-.section1 {
-    background-color: var(--creamwhite);
-    height: auto;
-}
-.section1-p {
-    color: var(--darkblue);
-    width: 100%;
-    margin-right: 30px;
-    height: auto;
-}
-.section1-slider {
-    width: 40%;
-    height: auto;
-    max-height: 300px;
-    position: relative;
-}
-.slider {
-    width: 100%;
-    height: auto;
-    max-height: 300px;
-    object-fit: cover;
-    filter: brightness(0.4);
-    border-radius: 10px;
-}
-.zindex10 {
-    position: absolute; 
-    z-index: 10; 
-    color: white;
-}
-.etapy-div {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    width: 25%;
-    height: 300px;
-    background-color: var(--lightgrey);
-    -webkit-box-shadow: 8px 8px 24px 0px var(--blue);
-    -moz-box-shadow: 8px 8px 24px 0px var(--blue);
-    box-shadow: 8px 8px 24px 0px var(--blue);
-
-}
-.section2 {
-    background-image: url("https://www.ekai.pl/wp-content/uploads/2018/05/26108993367_6e41499ce7_k-1024x683.jpg");
-    background-color: var(--green);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    backdrop-filter: blur(5px);
-}
-.section3 {
-    background-color: var(--green);
-    height: auto
-}
-.section3-p {
-    /* text-align: justify; */
-    color: white;
-    width: 40%;
-    margin-right: 30px;
-    text-shadow: 3px 3px 3px rgb(46, 48, 64);
-}
-.section3 .big-h1 {
-    
-    text-shadow: 3px 3px 3px rgb(46, 48, 64);
-}
-@media only screen and (max-width: 1100px) {
-    .index-section {
-        padding: 20px;
-    }
-    .flex-row {
-        flex-direction: column;
-    }
-    .section-p {
-        width: 100%;
-        max-width: 100%;
-        text-align: center;
-        margin: 0 0 20px 0;
-        font-size: 24px;
-    }
-}
-
-@media only screen and (max-width: 800px) {
-    .section3 {
-        height: auto
-    }
-    .header-menu {
-        display: none;
-    }
 }

@@ -4,19 +4,15 @@
     <section class="index-section section1">
         <div class="flex-row">
             <div style="width: 40%;">
-                <h1 class="big-h1 textleft" style="font-size: calc(2.4vw + 12px); color: black;">Grupa centralna<br/> <span class="blue">Diecezji Bydgoskiej</span></h1>
-                <p class="section1-p section-p">Tutaj będą jakieś głupotki o tym, że serdecznie zapraszamy do niesamowitej podróży w jednej z ośmiu grup wyjeżdżającej z naszej diecezji w ramach projektu "Z Kujaw i Pomorza do Lizbony" bla bla.</p>
+                <h1 class="big-h1 textleft" style="font-size: calc(2.4vw + 12px); color: black;">ŚDM Lizbona 2023<br/> <span class="blue">Diecezja Bydgoska</span></h1>
+                <p class="section1-p section-p">Tutaj musimy coś powiedzieć o tym, jak cudownym wydarzeniem są światowe dni młodzieży, które będą już niedługo z wielu miejsc w naszej diecezji</p>
             </div>
-            <div class="section1-slider">
-                <h1 class="big-h1 zindex10" style="bottom: 20%; left: 0; font-weight: 500; padding-left: 30px; text-align: left;">I spotkanie organizacyjne</h1>
-                <p class="zindex10" style="bottom: 20px; right: 20px;">Zobacz więcej...</p>
-                <p class="center bigfont zindex10" style="bottom: 0; width: 100%;">. . .</p>
-                <!-- to są divy zrobione w kółka display: inline-block z 1 2 3 ^ -->
-                <img class="slider" src="http://diecezja.bydgoszcz.pl/wp-content/gallery/z-kujaw-do-lizbony-23-10-22/2.jpg"/>
-            </div>
+            <img class="map" src="<?php bloginfo('template_url'); ?>/media/index-map.png"/>
         </div>
-        <h1 class="big-h1" style="color:var(--darkcontent)">
-            Etapy Światowych Dni Młodzieży:
+    </section>
+    <section class="index-section section1a">
+        <h1 class="big-h1" style="color:var(--darkcontent); font-weight: 500;">
+            <span class="bold">Etapy</span> Światowych Dni Młodzieży
         </h1>
         <div class="flex-row">
             <div class="etapy-div">
@@ -30,25 +26,69 @@
                 <h2 class="big-h2">Wydarzenia Centralne w Lizbonie</h2>
             </div>
         </div>
+        <button class="etapy-button">DOWIEDZ SIĘ WIĘCEJ O ETAPACH</button>
+    </section>
+    <section class="index-section section1b">
+        <h1 class="big-h1" style="color:var(--darkcontent); font-weight: 500;">
+            - tu będzie zaproszenie od księdza Biskupa -
+        </h1>
     </section>
     <section class="index-section section2">
-ads
+        <h1 class="big-h1 zindex10">Zobacz, jak było w poprzednich latach!</h1>
+        <p style="color: white; z-index: 100;" class="big-h1 index10">-tu bedzie galeria z odnosnikiem do [historii] i [jak wygladaja sdm] z filmikiem promocyjnym-</p>dsafssdfsdf
     </section>
     <section class="index-section section3">
-        <h1 class="big-h1">Poznaj Hymn ŚDM w Lizbonie!</h1>
+        <h1 class="big-h1" style="font-weight: 500;">Poznaj Hymn ŚDM w Lizbonie!</h1>
         <div class="flex-row">
             <p class="section3-p section-p">
-                Jest to oficjalna polska wersja hymnu Światowych Dni Młodzieży w Lizbonie w 2023 roku „Ha pressa no ar” zrealizowana we współpracy <a class="uline" style="color: white;" href="https://mlodzi.diecezja.pl">Duszpasterstwa Młodzieży Archidiecezji Krakowskiej</a>, <a class="uline" style="color: white;" href="https://sdmpolska.pl">Krajowego Biura Organizacyjnego ŚDM</a> oraz <a class="uline" style="color: white;" href="https://idmjp2.pl">Instytutu Dialogu Międzykulturowego im. Jana Pawła II w Krakowie</a>.
+                Jest to oficjalna polska wersja hymnu Światowych Dni Młodzieży w Lizbonie w 2023 roku „Ha pressa no ar” zrealizowana we współpracy <a class="bold" style="color: white;" href="https://mlodzi.diecezja.pl">Duszpasterstwa Młodzieży Archidiecezji Krakowskiej</a>, <a class="bold" style="color: white;" href="https://sdmpolska.pl">Krajowego Biura Organizacyjnego ŚDM</a> oraz <a class="bold" style="color: white;" href="https://idmjp2.pl">Instytutu Dialogu Międzykulturowego im. Jana Pawła II w Krakowie</a>.
             </p>
             <iframe width="560" height="315" src="https://www.youtube.com/embed/JUiBADEot90" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
         <!-- do dołu, z podkreśleniem, colorowe -->
-        <a href="https://www.youtube.com/watch?v=SWo7r7PaHqE"><h2 class="bottom-h2">Sprawdź oryginalną wersję!</h2></a>
+        <h2 class="bottom-h2"><a target="_blank" style="color: white;" href="https://www.youtube.com/watch?v=SWo7r7PaHqE">Sprawdź oryginalną wersję!</a></h2>
     </section>
     <section class="index-section section4">
-        <h1 class="big-h1" style="color: var(--darkcontent);">
+        <h1 class="big-h1" style="color:var(--darkcontent); font-weight: 500;">
             Grupy wyjeżdżające na ŚDM z naszej Diecezji:
         </h1>
+        <div class="grupy-row">
+            <div class="grupa-div">
+                <p>Grupa Złotów</p>
+                <p>Koordynator: </p>
+                <button>Więcej informacji:</button>
+            </div>
+            <div class="grupa-div">
+                <p>Grupa Nakło</p>
+                <p>Koordynator: </p>
+                <button>Więcej informacji:</button>
+            </div>
+            <div class="grupa-div">
+                <p>Grupa Osowa Góra</p>
+                <p>Koordynator: </p>
+                <button>Więcej informacji:</button>
+            </div>
+            <div class="grupa-div">
+                <p>Grupa Fordon</p>
+                <p>Koordynator: </p>
+                <button>Więcej informacji:</button>
+            </div>
+            <div class="grupa-div">
+                <p>Grupa Centralna</p>
+                <p>Koordynator: </p>
+                <button>Więcej informacji:</button>
+            </div>
+            <div class="grupa-div">
+                <p>Grupa Studencka</p>
+                <p>Koordynator: </p>
+                <button>Więcej informacji:</button>
+            </div>
+            <div class="grupa-div">
+                <p>Grupa Katolik</p>
+                <p>Koordynator: </p>
+                <button>Więcej informacji:</button>
+            </div>
+        </div>
     </section>
 </div>
 
