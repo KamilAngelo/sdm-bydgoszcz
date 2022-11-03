@@ -18,12 +18,12 @@
                </div>
                <div class="header-menu flex-center">
                     <ul>
-                        <li class="flex-center"><a href="">IDEA ŚDM</a></li>
-                        <li class="flex-center"><a href="">LIZBONA 2023</a></li>
-                        <li class="flex-center"><a href="">DIECEZJA BYDGOSKA</a></li>
-                        <li class="flex-center"><a href="">PUNKTY PRZYGOTOWAŃ</a></li>
-                        <li class="flex-center"><a href="">MASZ PYTANIE?</a></li>
-                        <li class="flex-center"><a href=""><button class="sign-in-button">ZAPISZ SIĘ!</button></a></li>
+                        <li class="flex-center"><a href="<?php echo site_url('/idea-sdm/'); ?>" class="menu-a">IDEA ŚDM</a></li>
+                        <li class="flex-center"><a href="<?php echo site_url('/lizbona-2023/'); ?>" class="menu-a">LIZBONA 2023</a></li>
+                        <li class="flex-center"><a href="<?php echo site_url('/diecezja-bydgoska/'); ?>" class="menu-a">DIECEZJA BYDGOSKA</a></li>
+                        <li class="flex-center"><a href="<?php echo site_url('/punkty-przygotowan/'); ?>" class="menu-a">PUNKTY PRZYGOTOWAŃ</a></li>
+                        <li class="flex-center"><a href="<?php echo site_url('/masz-pytanie/'); ?>" class="menu-a">MASZ PYTANIE?</a></li>
+                        <li class="flex-center"><a href="<?php echo site_url('/zapisz-sie/'); ?>"><button class="sign-in-button">ZAPISZ SIĘ!</button></a></li>
                     </ul>
                </div>
 

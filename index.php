@@ -11,6 +11,7 @@
                 <img class="map" src="<?php bloginfo('template_url'); ?>/media/index-map.png"/>
             </div>
         </section>
+    </div>
         <section class="index-section section1a">
             <h1 class="big-h1" style="color:var(--darkcontent); font-weight: 500;">
                 <span class="bold">Etapy</span> Światowych Dni Młodzieży
@@ -50,7 +51,6 @@
                     </p>
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/JUiBADEot90" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
-                <!-- do dołu, z podkreśleniem, colorowe -->
                 <h2 class="bottom-h2"><a target="_blank" style="color: white;" href="https://www.youtube.com/watch?v=SWo7r7PaHqE">Sprawdź oryginalną wersję!</a></h2>
             </div>
         </section>
@@ -100,13 +100,4 @@
         </section>
     </div>
 </div>
-
 <?php get_footer(); ?>
-<!-- 
-    Na 1 stronie krotko o naszym wyjezdzie i aktualnosci
-    na zdjeciu ZAPISZ SIE JUZ DZIS!
-    Dwie czesci sdmow
-    grupy ktore wyjezdzaja (3, do reszty odnosnik)
-
-    aria-current
--->
