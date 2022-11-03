@@ -1,5 +1,4 @@
 <?php get_header(); ?>
-<link rel="stylesheet" href="style-index.css">
 <div class="container">
     <div class="content">
         <section class="index-section section1">
@@ -28,9 +27,9 @@
                     <h2 class="big-h2">Wydarzenia Centralne w Lizbonie</h2>
                 </div>
             </div>
-            <button class="etapy-button">DOWIEDZ SIĘ WIĘCEJ O ETAPACH</button>
+            <button class="etapy-button animate__bounce">DOWIEDZ SIĘ WIĘCEJ O ETAPACH</button>
         </section>
-        <section class="index-section section1b">
+        <section class="index-section section1b" style="background-image: url('<?php bloginfo('template_url'); ?>/media/patternpad.svg');">
             <h1 class="big-h1" style="color:var(--darkcontent); font-weight: 500;">
                 - tu będzie zaproszenie od księdza Biskupa -
             </h1>
