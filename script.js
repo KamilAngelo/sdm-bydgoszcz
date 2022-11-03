@@ -11,6 +11,7 @@ Object.entries(menuitems).forEach(entry => {
 let hamburger = document.getElementsByClassName('hamburger')[0]
 hamburger.addEventListener('click', (e) => {
     hamburger.classList.toggle('is-active')
+    document.getElementsByClassName('header-menu')[0].classList.toggle('header-menu-visible')
 })
 
 document.addEventListener('scroll', (e) => {
@@ -25,9 +26,8 @@ document.addEventListener('scroll', (e) => {
     }
 })
 
-
 function checkVisible(elm) {
     var rect = elm.getBoundingClientRect();
     var viewHeight = Math.max(document.documentElement.clientHeight, window.innerHeight);
-    return !(rect.bottom < -300 || rect.top - viewHeight >= -50);
+    return !(rect.bottom < -300 || rect.top - viewHeight >= -20);
   }

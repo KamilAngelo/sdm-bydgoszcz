@@ -24,7 +24,7 @@
                             <li class="flex-center"><a href="<?php echo site_url('/diecezja-bydgoska/'); ?>" class="menu-a">DIECEZJA BYDGOSKA</a></li>
                             <li class="flex-center"><a href="<?php echo site_url('/punkty-przygotowan/'); ?>" class="menu-a">PUNKTY PRZYGOTOWAŃ</a></li>
                             <li class="flex-center"><a href="<?php echo site_url('/masz-pytanie/'); ?>" class="menu-a">MASZ PYTANIE?</a></li>
-                            <li class="flex-center"><a href="<?php echo site_url('/zapisz-sie/'); ?>"><button class="sign-in-button animate__animated animate__shakeX">ZAPISZ SIĘ!</button></a></li>
+                            <li class="flex-center"><a href="<?php echo site_url('/zapisz-sie/'); ?>"><button class="sign-in-button animate__animated animate__pulse">ZAPISZ SIĘ!</button></a></li>
                         </ul>
                 </div>
                 <button class="hamburger hamburger--collapse" type="button">

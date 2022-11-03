@@ -76,6 +76,7 @@
 }
 .etapy-div {
     display: flex;
+    padding: 5px;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -113,7 +114,7 @@
 
 }
 .section1b {
-       
+       background-repeat: no-repeat;
 }
 
 .section2 {
@@ -216,7 +217,27 @@
 }
 
 @media only screen and (max-width: 800px) {
+    .big-h1 {
+        font-size: 7vw;
+    }
     .section3 {
         height: auto
+    }
+    .etapy-div {
+        max-width: 90%;
+        width: 400px;
+    }
+    .section1 .big-h1 {
+        font-size: 7vw; 
+        color: black;
+    }
+    .section1-p {
+        font-size: 5vw;
+    }
+    .section3-p {
+        font-size: 5vw;
+    }
+    .bottom-h2 {
+        font-size: 4vw;
     }
 }
