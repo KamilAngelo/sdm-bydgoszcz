@@ -39,6 +39,15 @@ body {
     height: 100%;
     display: flex;
     flex-direction: column;
+    align-items: center;
+}
+.content {
+    max-width: 22222px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 a {
     text-decoration: none;
