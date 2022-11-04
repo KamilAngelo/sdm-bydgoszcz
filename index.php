@@ -2,7 +2,7 @@
 <div class="container">
     <div class="content">
         <section class="index-section section1">
-            <div class="flex-row">
+            <div class="flex-row" style="justify-content: space-between;">
                 <div class="section1-items">
                     <h1 class="big-h1 textleft">ŚDM Lizbona 2023<br/> <span class="blue">Diecezja Bydgoska</span></h1>
                     <p class="section1-p section-p">Tutaj musimy coś powiedzieć o tym, jak cudownym wydarzeniem są światowe dni młodzieży, które będą już niedługo z wielu miejsc w naszej diecezji</p>
@@ -27,7 +27,7 @@
                     <h2 class="big-h2">Wydarzenia Centralne w Lizbonie</h2>
                 </div>
             </div>
-            <button class="etapy-button animate__bounce">DOWIEDZ SIĘ WIĘCEJ O ETAPACH</button>
+            <a href="<?php echo site_url('/lizbona-2023/'); ?>"><button class="etapy-button animate__bounce">DOWIEDZ SIĘ WIĘCEJ O ETAPACH</button></a>
         </section>
         <section class="index-section section1b" style="background-image: url('<?php bloginfo('template_url'); ?>/media/patternpad.svg');">
             <h1 class="big-h1" style="color:var(--darkcontent); font-weight: 500;">
