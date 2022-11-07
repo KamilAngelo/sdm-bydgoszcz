@@ -16,12 +16,12 @@
                 <span class="bold">Etapy</span> Światowych Dni Młodzieży
             </h1>
             <div class="flex-row" style="gap: 40px;">
-                <div class="etapy-div">
+                <div class="etapy-div shadow-div">
                     <img src="<?php bloginfo('template_url'); ?>/media/calendar.png" alt="kalendarz-logo" width="40px"/>
                     <p>26-31 lipca 2023 r.</p>
                     <h2 class="big-h2">Dni w Diecezjach Portugalii</h2>
                 </div>
-                <div class="etapy-div">
+                <div class="etapy-div shadow-div">
                     <img src="<?php bloginfo('template_url'); ?>/media/calendar.png" alt="kalendarz-logo" width="40px"/>
                     <p>1-6 sierpnia 2023 r.</p>
                     <h2 class="big-h2">Wydarzenia Centralne w Lizbonie</h2>
@@ -54,45 +54,58 @@
             </div>
         </section>
         <section class="index-section section4">
-            <div class="content">
+            <div class="content" style="max-width: 100%; width: 100%;">
                 <h1 class="big-h1" style="color:var(--darkcontent); font-weight: 500;">
                     Grupy wyjeżdżające na ŚDM z naszej Diecezji:
                 </h1>
                 <div class="grupy-row">
-                    <div class="grupa-div">
-                        <p>Grupa Złotów</p>
-                        <p>Koordynator: </p>
-                        <button>Więcej informacji:</button>
+                    <div class="grupa-div shadow-div">
+                        <h2 class="page-h3">Grupa Złotów I</h2>
+                        <p class="page-p" style="font-size: 15px; text-align: left;">Organizator: Parafia pw. Św. Piotra i Pawła Apostołów w Złotowie</p>
+                        <p class="page-p" style="font-size: 15px; text-align: left;">Koordynator: ks. Bartłomiej Brzeziński</p>
+                        <button class="more-button"><a href="<?php echo site_url('/punkty-przygotowan/'); ?>#zlotow1-a" style="color: white;">Więcej informacji</a></button>
                     </div>
-                    <div class="grupa-div">
-                        <p>Grupa Nakło</p>
-                        <p>Koordynator: </p>
-                        <button>Więcej informacji:</button>
+                    <div class="grupa-div shadow-div">
+                        <h2 class="page-h3">Grupa Złotów II</h2>
+                        <p class="page-p" style="font-size: 15px; text-align: left;">Organizator: Parafia pw. Wniebowzięcia NMP w Złotowie</p>
+                        <p class="page-p" style="font-size: 15px; text-align: left;">Koordynator: Marcin Przystawski MSF</p>
+                        <button class="more-button"><a href="<?php echo site_url('/punkty-przygotowan/'); ?>#zlotowii-a" style="color: white;">Więcej informacji</a></button>
                     </div>
-                    <div class="grupa-div">
-                        <p>Grupa Osowa Góra</p>
-                        <p>Koordynator: </p>
-                        <button>Więcej informacji:</button>
+                    <div class="grupa-div shadow-div">
+                        <h2 class="page-h3">Grupa Nakło</h2>
+                        <p class="page-p" style="font-size: 15px; text-align: left;">Organizator: Dekanalne Duszpasterstwo Młodzieży</p>
+                        <p class="page-p" style="font-size: 15px; text-align: left;">Koordynator: ks. Igor Wichrowski</p>
+                        <button class="more-button"><a href="<?php echo site_url('/punkty-przygotowan/'); ?>#naklo-a" style="color: white;">Więcej informacji</a></button>
                     </div>
-                    <div class="grupa-div">
-                        <p>Grupa Fordon</p>
-                        <p>Koordynator: </p>
-                        <button>Więcej informacji:</button>
+                    <div class="grupa-div shadow-div">
+                        <h2 class="page-h3">Grupa Osowa Góra</h2>
+                        <p class="page-p" style="font-size: 15px; text-align: left;">Organizator: Duszpasterstwo Młodzieży u Maksymiliana</p>
+                        <p class="page-p" style="font-size: 15px; text-align: left;">Koordynator: ks. Wojciech Ciołek</p>
+                        <button class="more-button"><a href="<?php echo site_url('/punkty-przygotowan/'); ?>#osowagora-a" style="color: white;">Więcej informacji</a></button>
                     </div>
-                    <div class="grupa-div">
-                        <p>Grupa Centralna</p>
-                        <p>Koordynator: </p>
-                        <button>Więcej informacji:</button>
+                    <div class="grupa-div shadow-div">
+                        <h2 class="page-h3">Grupa Fordon</h2>
+                        <p class="page-p" style="font-size: 15px; text-align: left;">Organizator: Kościół św. Mateusza Apostoła i Ewangelisty w Bydgoszczy</p>
+                        <p class="page-p" style="font-size: 15px; text-align: left;">Koordynator: ks. Henryk Stippa</p>
+                        <button class="more-button"><a href="<?php echo site_url('/punkty-przygotowan/'); ?>#fordon-a" style="color: white;">Więcej informacji</a></button>
                     </div>
-                    <div class="grupa-div">
-                        <p>Grupa Studencka</p>
-                        <p>Koordynator: </p>
-                        <button>Więcej informacji:</button>
+                    <div class="grupa-div shadow-div">
+                        <h2 class="page-h3">Grupa Centralna</h2>
+                        <p class="page-p" style="font-size: 15px; text-align: left;">Organizator: Młodzieżowa Rada Programowa Diecezji Bydgoskiej</p>
+                        <p class="page-p" style="font-size: 15px; text-align: left;">Koordynator: ks. Henryk Stippa</p>
+                        <button class="more-button"><a href="<?php echo site_url('/punkty-przygotowan/'); ?>#centralna-a" style="color: white;">Więcej informacji</a></button>
                     </div>
-                    <div class="grupa-div">
-                        <p>Grupa Katolik</p>
-                        <p>Koordynator: </p>
-                        <button>Więcej informacji:</button>
+                    <div class="grupa-div shadow-div">
+                        <h2 class="page-h3">Grupa Studencka</h2>
+                        <p class="page-p" style="font-size: 15px; text-align: left;">Organizator: Diecezjalny Ośrodek Duszpasterstwa Akademickiego "Martyria"</p>
+                        <p class="page-p" style="font-size: 15px; text-align: left;">Koordynator: ks. Piotr Wachowski</p>
+                        <button class="more-button"><a href="<?php echo site_url('/punkty-przygotowan/'); ?>#studencka-a" style="color: white;">Więcej informacji</a></button>
+                    </div>
+                    <div class="grupa-div shadow-div">
+                        <h2 class="page-h3">Grupa Katolik</h2>
+                        <p class="page-p" style="font-size: 15px; text-align: left;">Organizator: Zespół Szkół Katolickich w Bydgoszczy</p>
+                        <p class="page-p" style="font-size: 15px; text-align: left;">Koordynator: ks. Łukasz Boruch</p>
+                        <button class="more-button"><a href="<?php echo site_url('/punkty-przygotowan/'); ?>#katolik-a" style="color: white;">Więcej informacji</a></button>
                     </div>
                 </div>
             </div>

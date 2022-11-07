@@ -1,6 +1,12 @@
+.page-content {
+    width: calc(min(100%, 1200px) - 100px) !important;
+    max-width: 100%;
+    box-sizing: border-box;
+}
 .page-section {
     width: 100%;
     margin: 25px 0;
+    box-sizing: border-box;
 }
 .page-h1 {
     font-family: var(--robotofont);
@@ -43,11 +49,19 @@
     max-width: 80%;
 }
 .page-promo {
-    width: 50vw;
-    height: calc(50vw * 0.56);
+    width: calc(100px + 30vw);
+    height: calc(calc(100px + 30vw) * 0.56);
+}
+.more-about-points {
+    display: none;
 }
 
 @media only screen and (max-width: 1100px) {
+    .page-content {
+        width: 100% !important;
+        max-width: 100%;
+        box-sizing: border-box;
+    }
     .page-h1{
         font-size: 1.6em;
         text-align: center !important;

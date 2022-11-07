@@ -121,6 +121,9 @@ a {
     align-items: center;
     max-width: 100%;
 }
+.row-item {
+    width: 48%;
+}
 .flex-column {
     display: flex;
     flex-direction: column;
@@ -209,6 +212,35 @@ footer {
     font-size: 12px;
     text-align: center;
 }
+.shadow-div {
+    padding: 10px;
+    box-sizing: border-box  ;
+    border-radius: 12px;
+    -webkit-box-shadow: 4px 4px 18px -9px rgba(66, 68, 90, 1);
+    -moz-box-shadow: 4px 4px 18px -9px rgba(66, 68, 90, 1);
+    box-shadow: 4px 4px 18px -9px rgba(66, 68, 90, 1);
+}
+.phone-number::before {
+    content: '📞 ';
+}
+.email-address::before {
+    content: '📧 ';
+}
+.more-button {
+    background-color: var(--green);
+    margin-top: 17px;
+    border: 0;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+    cursor:pointer;
+    transition: all .2s ease-in-out;
+}
+.more-button:hover {
+    background-color: darkgreen;
+    padding: 10px;
+}
 
 
 
@@ -216,9 +248,15 @@ footer {
     .flex-row {
         flex-direction: column;
     }
+    .late-row {
+        flex-direction: row;
+    }
 }
 
 @media only screen and (max-width: 800px) {
+    .late-row {
+        flex-direction: column;
+    }
     .content {
         padding: 10px;
         width: 100%;
@@ -256,6 +294,9 @@ footer {
         width: 100%;
         box-sizing: border-box;
         border-bottom: 1px solid black;
+    }
+    .row-item {
+        width: 100%;
     }
 }
 

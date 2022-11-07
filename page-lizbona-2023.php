@@ -5,7 +5,7 @@
         <div class="page-section">
             <h1 class="page-h1" style="margin-bottom: 50px;">Jak wyglądają ŚDM?</h1>
             <iframe style="float: left; margin: 0px 30px 20px 0px;" class="page-promo" width="560" height="315" src="https://www.youtube.com/embed/Efsm4s8g2mg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <h2 class="page-h2" style="text-align: right;">Część 1: Dni w Diecezjach</h2>
+            <h2 class="page-h2" style="text-align: center;">Część 1: Dni w Diecezjach</h2>
             <p class="page-p">Od 26 do 31 lipca 2023 r. odbędą się Dni w Diecezjach poprzedzające Światowe Dni Młodzieży w Lizbonie. W tym czasie pielgrzymów z całego świata przyjmie 17 portugalskich diecezji, w tym dwie obejmujące tereny wyspowe. </p>
         </div>
         <div class="page-section">
@@ -52,7 +52,7 @@
         <div class="page-section">
             <h1 class="page-h1" style="text-align: center;">Logo</h1>
             <p class="page-p justified">Logo przedstawia krzyż, w który wpisany jest płomień, symbolizujący Ducha Świętego, oraz droga, nawiązująca do tradycji pielgrzymowania, bliskiej mieszkańcom Portugalii i stanowiącej jeden z ważnych wymiarów Światowych Dni Młodzieży.</p>
-            <div class="flex-row">
+            <div class="flex-row late-row">
                 <img src="https://lizbona.donbosco.pl/wp-content/webpc-passthru.php?src=https://lizbona.donbosco.pl/wp-content/uploads/2020/11/122139860_10159392584957275_7083029084253361608_o-1024x1024.png&nocache=1" alt="" class="page-img" style=" width: 40%; box-shadow: none;">
                 <img src="https://lizbona.donbosco.pl/wp-content/webpc-passthru.php?src=https://lizbona.donbosco.pl/wp-content/uploads/2020/11/121969447_10159392584952275_3049230675810594980_o-1024x1024.png&nocache=1" alt="" class="page-img" style="  width: 40%; box-shadow: none;">
             </div>
@@ -71,3 +71,4 @@
 
 
 <?php get_footer(); ?>
+

@@ -99,6 +99,7 @@
     padding: 20px;
     border: 0;
     width: 300px;
+    max-width: 90%;
     height: auto;
     cursor:pointer;
     -webkit-box-shadow: -15px -5px 0px 0px rgba(89, 89, 89, 1);
@@ -174,8 +175,17 @@
 .grupa-div {
     width: 300px;
     height: 300px;
-    background-color: var(--lightgrey);
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    position: relative;
 }
+.grupa-div button {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
 @media only screen and (max-width: 1100px) {
     .index-section {
         padding: 20px;
@@ -195,7 +205,7 @@
         font-size: 3.2em;
     }
     .section1a {
-        padding-bottom: 150px;
+        padding-bottom: 150px !important;
     }
     .map {
         width: 70%;
@@ -217,8 +227,11 @@
 }
 
 @media only screen and (max-width: 800px) {
+    .index-section {
+        padding: 5px;
+    }
     .big-h1 {
-        font-size: 7vw;
+        font-size: calc(3vw + 10px);
     }
     .section3 {
         height: auto
@@ -227,17 +240,23 @@
         max-width: 90%;
         width: 400px;
     }
+    .section1-items {
+        width: 100%;    
+    }
     .section1 .big-h1 {
-        font-size: 7vw; 
+        font-size: calc(4vw + 10px);
         color: black;
     }
     .section1-p {
-        font-size: 5vw;
+        font-size: calc(2vw + 10px);
+    }
+    .map {
+        width: min(500px, 90%);
     }
     .section3-p {
-        font-size: 5vw;
+        font-size: calc(2vw + 10px);
     }
     .bottom-h2 {
-        font-size: 4vw;
+        font-size: 2vw;
     }
 }
