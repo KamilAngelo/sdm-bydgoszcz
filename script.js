@@ -15,18 +15,6 @@ hamburger.addEventListener('click', (e) => {
     document.getElementsByClassName('header-menu')[0].classList.toggle('header-menu-visible')
 })
 
-document.addEventListener('scroll', (e) => {
-    let etapybutton = document.getElementsByClassName('etapy-button')[0]
-    if (checkVisible(etapybutton)) {
-        etapybutton.classList.add('animate__animated') 
-        etapybutton.classList.add('animate__bounceIn') 
-    } else {
-        
-        etapybutton.classList.remove('animate__animated') 
-        etapybutton.classList.remove('animate__bounceIn') 
-    }
-})
-
 function checkVisible(elm) {
     var rect = elm.getBoundingClientRect();
     var viewHeight = Math.max(document.documentElement.clientHeight, window.innerHeight);
@@ -43,3 +31,37 @@ more_buttons.forEach((button, index) => button.addEventListener('click', () => {
 
     button.parentElement.parentElement.firstElementChild.classList.add('row-item');
 }))
+
+
+let iframe_element = document.getElementsByTagName('iframe')[0]
+
+iframe_element.onclick = function() {
+    let yt_player = document.getElementById('movie_player')
+    if (yt_player.classList.contains('playing-mode')) {alert('playing-mode')}
+    else {alert('pause-mode')}
+    alert('dasnasij')
+
+}
+
+    
+const swiper = new Swiper('.swiper', {
+    // Optional parameters
+    direction: 'horizontal',
+    loop: true,
+  
+    // If we need pagination
+    pagination: {
+      el: '.swiper-pagination',
+    },
+  
+    // Navigation arrows
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+  
+    // And if we need scrollbar
+    scrollbar: {
+      el: '.swiper-scrollbar',
+    },
+  });

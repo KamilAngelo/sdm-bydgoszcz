@@ -14,7 +14,7 @@
         <div class="bar" style="margin-top: 30px;"></div>
         <div class="page-section">
             <h1 class="page-h1" style="text-align: right;">Historia</h1>
-            <img class="page-img" style="float:left; margin: 0px 30px 20px 0; transform: scaleX(-1);" src="http://prymaspolski.pl/wp-content/uploads/2019/05/Bez-nazwy-2a-2.jpg" alt="śdm-historia">
+            <img class="page-img" style="float:left; margin: 0px 30px 20px 0; transform: scaleX(-1);" src="<?php bloginfo('template_url'); ?>/media/historia-sdm.jpg" alt="śdm-historia">
             <p class="page-p" style="width: 100%;">
                 Pomysłodawcą i pierwszym gospodarzem tych Dni był św. Jan Paweł II, który zgromadził młodych w Rzymie (1984, 1985, 2000), Buenos Aires (1987), Santiago de Compostela (1989), Częstochowie (1991), Denver (1993), Manili (1995), Paryżu (1997) i Toronto (2002).
             </p>

@@ -43,7 +43,6 @@
 }
 .page-content .flex-row {
     justify-content: space-between;
-    align-items: flex-start;
 }
 .page-symbole-img {
     max-width: 80%;
@@ -54,6 +53,18 @@
 }
 .more-about-points {
     display: none;
+}
+.patron-div {
+    margin-bottom: 20px;
+}
+.patron-div > div {
+    display: flex; 
+    flex-direction: row;
+    align-items: center;
+}
+.patron-div img {
+    width: 150px;
+    padding: 0px 15px;
 }
 
 @media only screen and (max-width: 1100px) {

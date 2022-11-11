@@ -4,7 +4,7 @@
     <div class="content page-content">
         <div class="page-section">
             <h1 class="page-h1" style="margin-bottom: 50px;">Jak wyglądają ŚDM?</h1>
-            <iframe style="float: left; margin: 0px 30px 20px 0px;" class="page-promo" width="560" height="315" src="https://www.youtube.com/embed/Efsm4s8g2mg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe onclick="change()" style="float: left; margin: 0px 30px 20px 0px;" class="page-promo" width="560" height="315" src="https://www.youtube.com/embed/Efsm4s8g2mg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <h2 class="page-h2" style="text-align: center;">Część 1: Dni w Diecezjach</h2>
             <p class="page-p">Od 26 do 31 lipca 2023 r. odbędą się Dni w Diecezjach poprzedzające Światowe Dni Młodzieży w Lizbonie. W tym czasie pielgrzymów z całego świata przyjmie 17 portugalskich diecezji, w tym dwie obejmujące tereny wyspowe. </p>
         </div>
@@ -16,7 +16,8 @@
         </div>
         <div class="page-section">
             <h2 class="page-h2" style="text-align: center;">Część 2: Wydarzenia centralne</h2>
-            <p class="page-p"></p>
+            <img class="page-img" style="border-radius: 3px; box-shadow: none; float: left; margin: 0px 20px 20px 0px;" src="https://ocdn.eu/pulscms-transforms/1/Surk9kpTURBXy8wZDEzNDBlOTFkZWZlODZlY2ViMDBjNjI5Mjg2ZjI5Ny5qcGeUlQMAzLzNF3DNDS-TBc0EsM0CpJUH2TIvcHVsc2Ntcy9NREFfLzIzMzdjOWZkNmI5MzFlZTZjYjBkMjNkY2JhMjU4YTlkLnBuZwDCAJMJpjg2YWRkNwbeAAGhMAE/lizbona.jpg" alt="lizbona" />
+            <p class="page-p">Po zakończeniu „Dni w Diecezjach”, wszyscy udają się do miejsca wydarzeń centralnych, wyznaczonego przez Ojca Świętego. W 2023 roku będzie to Lizbona. Młodzież gromadzi się tam na okres całego tygodnia. W poniedziałek przyjeżdża się w miejsce zakwaterowania, we wtorek uczestniczy się w ceremonii otwarcia, w środę, czwartek i piątek bierze się udział w katechezach i Festiwalu Młodych, w sobotę pielgrzymuje się na miejsce czuwania i uczestniczy w wieczornym spotkaniu z Papieżem, a w niedzielę bierze się udział w uroczystej Mszy św. kończącej ŚDM. Wydarzeniom Centralnym towarzyszą specjalne strefy spotkań, zwane Strefą Pojednania oraz Targi Powołaniowe.</p>
         </div>
         <div class="page-section">
             <h2 class="page-h2" style="text-align: center;">Festiwal Młodych</h2>
@@ -63,9 +64,73 @@
         <div class="bar" style="margin-top: 30px;"></div>
         <div class="page-section">
             <h1 class="page-h1" style="text-align: center;">Patroni</h1>
-            <p class="page-p"></p>
+            <div class="flex-row patron-div">
+                <div class="row-item shadow-div">
+                    <img src="https://lisboa2023.org/api/wp-content/uploads/2022/05/2.-SJPII.png" />
+                    <h2>ŚW. JAN PAWEŁ II</h2>
+                </div>
+                <div class="row-item shadow-div">
+                    <img src="https://lisboa2023.org/api/wp-content/uploads/2022/05/4.-SV-3.png" />
+                    <h2>ŚW. WINCENTY</h2>
+                </div>
+            </div>
+            <div class="flex-row patron-div">
+                <div class="row-item shadow-div">
+                    <img src="https://lisboa2023.org/api/wp-content/uploads/2022/05/5.-SA-2.png" />
+                    <h2>ŚW. ANTONI Z LIZBONY</h2>
+                </div>
+                <div class="row-item shadow-div">
+                    <img src="https://lisboa2023.org/api/wp-content/uploads/2022/05/6.-SBM-1.png" />
+                    <h2>ŚW. BARTŁOMIEJ OD MĘCZENNIKÓW</h2>
+                </div>
+            </div>
+            <div class="flex-row patron-div">
+                <div class="row-item shadow-div">
+                    <img src="https://lisboa2023.org/api/wp-content/uploads/2022/05/7.-SJB-1.png" />
+                    <h2>ŚW. JAN DE BRITO</h2>
+                </div>
+                <div class="row-item shadow-div">
+                    <img src="https://lisboa2023.org/api/wp-content/uploads/2022/05/8.-BJP-2.png" />
+                    <h2>Bł. JOANNA PORTUGALSKA</h2>
+                </div>
+            </div>
+            <div class="flex-row patron-div">
+                <div class="row-item shadow-div">
+                    <img src="https://lisboa2023.org/api/wp-content/uploads/2022/05/9.-BJF-1.png" />
+                    <h2>Bł. JOÃO FERNANDES</h2>
+                </div>
+                <div class="row-item shadow-div">
+                    <img src="https://lisboa2023.org/api/wp-content/uploads/2022/05/10.-BMCMJ-2.png" />
+                    <h2>BŁ. MARIA KLARA OD DZIECIĄTKA JEZUS</h2>
+                </div>
+            </div>
+            <div class="flex-row patron-div">
+                <div class="row-item shadow-div">
+                    <img src="https://lisboa2023.org/api/wp-content/uploads/2022/05/11.-BJF.png" />
+                    <h2>BŁ. PIER GIORGIO FRASSATI</h2>
+                </div>
+                <div class="row-item shadow-div">
+                    <img src="https://lisboa2023.org/api/wp-content/uploads/2022/05/12.-BMC.png" />
+                    <h2>BŁ. MARCEL CALLO</h2>
+                </div>
+            </div>
+            <div class="flex-row patron-div">
+                <div class="row-item shadow-div">
+                    <img src="https://lisboa2023.org/api/wp-content/uploads/2022/05/13.-BCL-1.png" />
+                    <h2>BŁ. CHIARA BADANO</h2>
+                </div>
+                <div class="row-item shadow-div">
+                    <img src="https://lisboa2023.org/api/wp-content/uploads/2022/05/14.-BCA.png" />
+                    <h2>BŁ. CARLO ACUTIS</h2>
+                </div>
+            </div>
+            <div class="flex-row patron-div">
+                <div class="row-item shadow-div">
+                    <img src="https://lisboa2023.org/api/wp-content/uploads/2022/05/3.-SJB-3.png" />
+                    <h2>ŚW. JAN BOSKO</h2>
+                </div>
+            </div>
         </div>
-        <div class="bar" style="margin-top: 30px;"></div>
     </div>
 </div>
 

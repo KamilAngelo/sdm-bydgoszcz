@@ -34,11 +34,19 @@
                 - tu będzie zaproszenie od księdza Biskupa -
             </h1>
         </section>
-    </div>
         <section class="index-section section2">
-            <div class="content">
-                <h1 class="big-h1 zindex10">Tak było w poprzednich latach</h1>
-                <p class="center" style="color: white; z-index: 100; position: absolute; top: 100px;">-tu bedzie galeria z odnosnikiem do [historii] i [jak wygladaja sdm] z filmikiem promocyjnym-</p>dsafssdfsdf
+            <h1 class="big-h1 zindex10">Tak było w poprzednich latach</h1>
+            <div class="swiper zindex10">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide"><img src="https://upload.wikimedia.org/wikipedia/commons/d/de/Wydrome2000.jpg" alt="" srcset=""></div>
+                  <div class="swiper-slide">Slide 2</div>
+                  <div class="swiper-slide">Slide 3</div>
+                </div>
+                <div class="swiper-pagination"></div>
+
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+              
             </div>
         </section>
         <section class="index-section section3">
@@ -110,6 +118,22 @@
                 </div>
             </div>
         </section>
-    </div>
 </div>
+<script>
+
+document.addEventListener('scroll', (e) => {
+    let etapybutton = document.getElementsByClassName('etapy-button')[0]
+    if (checkVisible(etapybutton)) {
+        etapybutton.classList.add('animate__animated') 
+        etapybutton.classList.add('animate__bounceIn') 
+    } else {
+        
+        etapybutton.classList.remove('animate__animated') 
+        etapybutton.classList.remove('animate__bounceIn') 
+    }
+})
+
+</script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
 <?php get_footer(); ?>

@@ -7,9 +7,8 @@
         <footer>
             <div>
                 <h2>Kontakt:</h2>
-                <p>mail<p>
-                <p>telefon</p>
-                <p>etc.</p>
+                <p class="email-address"><a href="mailto:sdm.stippahenryk@gmail.com" style="color: white;">sdm.stippahenryk@gmail.com</a><p>
+                <p class="phone-number"><a href="tel:607658672" style="color: white;">607 658 672</a></p>
             </div>
             <div>
                 <h2>Nasze social media</h2>

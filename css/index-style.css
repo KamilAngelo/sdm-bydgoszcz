@@ -120,6 +120,7 @@
 
 .section2 {
     position: relative;
+    padding: 0 !important;
 }
 .section2::before {  
     content: "";
@@ -136,6 +137,28 @@
 }
 .section2 .big-h1 {
     text-shadow: 4px 4px 6px rgb(0, 0, 0);
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    top: 20px;
+}
+.swiper {
+    width: 50vw;
+    height: calc(0.625 * 50vw);
+    top: 20%;
+    left: 25vw;
+    position: absolute !important;
+}
+.swiper img {
+    width: 100%;
+    height: auto;
+}
+.swiper-button-next, .swiper-button-prev {
+    background-color: rgba(0, 0, 0, 0.467);
+    padding: 5px;
+}
+.swiper-button-next::after , .swiper-button-prev::after {
+    color: white;
 }
 .section3 {
     background: rgb(19,89,16);
@@ -147,12 +170,10 @@
 }
 .section3-p {
     color: white;
-    width: 40%;
     margin-right: 30px;
     text-shadow: 3px 3px 3px rgb(46, 48, 64);
 }
 .section3 .big-h1 {
-    
     text-shadow: 3px 3px 3px rgb(46, 48, 64);
 }
 .section4 {
@@ -217,8 +238,9 @@
         top: 40px;
     }
     .section3 iframe {
+        width: 80%;
         max-width: 100%;
-        height: auto;
+        height: calc(0.52 * 80vw);
     }
     .grupy-row {
         gap: 20px;
