@@ -1,2 +1,2 @@
 # sdm-bydgoszcz
-sdmbydgoszcz.000webhostapp.com
+sdm.bydgoszcz.pl
