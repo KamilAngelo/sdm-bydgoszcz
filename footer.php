@@ -12,9 +12,10 @@
             </div>
             <div>
                 <h2>Nasze social media</h2>
-                <p>Fb rady</p>
-                <p>Ig rady</p>
-                <p>etc</p>
+                <div style="display: flex; flex-direction: row; justify-content: space-around; margin-bottom: 10px;">
+                    <a href="https://www.facebook.com/mlodziezowa.rada.programowa.diecezji.bydgoskiej"><img src="<?php bloginfo('template_url'); ?>/media/fb.png" alt="Facebook MRPDB" class="footer-icon"/></a>
+                    <a href="https://www.instagram.com/_mrpdb_/"><img src="<?php bloginfo('template_url'); ?>/media/ig.png" alt="Instagram MRPDB" class="footer-icon"/></a>
+                </div>
             </div>
             <div class="bar" style="border-bottom: 1px solid rgb(50, 49, 49);"></div>
             <div class="author">

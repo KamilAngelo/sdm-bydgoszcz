@@ -61,7 +61,7 @@
     width: 40%;
 }
 .section1 .big-h1 {
-    font-size: min(calc(2.2vw + 12px), 50px); 
+    font-size: min(calc(2.2vw + 12px), 43px); 
     color: black;
 }
 .section1a {
@@ -72,7 +72,6 @@
 }
 .section1a .big-h1 {
     padding: 0 0 50px 0;
-    margin: 0;
 }
 .etapy-div {
     display: flex;
@@ -140,7 +139,7 @@
     width: 100%;
     margin: 0;
     padding: 0;
-    top: 20px;
+    top: 60px;
 }
 .swiper {
     width: 50vw;
@@ -154,7 +153,7 @@
     height: auto;
 }
 .swiper-button-next, .swiper-button-prev {
-    background-color: rgba(0, 0, 0, 0.467);
+    background-color: rgba(0, 0, 0, 0.19);
     padding: 5px;
 }
 .swiper-button-next::after , .swiper-button-prev::after {
@@ -163,6 +162,7 @@
 .section3 {
     background: rgb(19,89,16);
     background: linear-gradient(76deg, rgba(19,89,16,1) 30%, rgba(24,134,19,1) 67%);
+    width: 100%;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -175,6 +175,9 @@
 }
 .section3 .big-h1 {
     text-shadow: 3px 3px 3px rgb(46, 48, 64);
+}
+.section3 iframe {
+    height: calc(48vw * 0.52);
 }
 .section4 {
     display: flex;
@@ -209,7 +212,7 @@
 
 @media only screen and (max-width: 1100px) {
     .index-section {
-        padding: 20px;
+        padding: 30px;
     }
     .section-p {
         width: 100%;
@@ -234,26 +237,39 @@
     .etapy-div {
         width: 40%;
     }
+    .section2 {
+        height: calc(100vw * 0.65);
+        min-height: 400px;
+    }
     .section2 .big-h1 {
         top: 40px;
     }
     .section3 iframe {
         width: 80%;
         max-width: 100%;
-        height: calc(0.52 * 80vw);
+        height: calc(0.55 * 80vw);
+        margin-bottom: 20px;
     }
     .grupy-row {
-        gap: 20px;
+        gap: 30px;
         width: 100%;
+    }
+    .swiper {
+        width: 80vw;
+        left: 10vw;
+        height: calc(80vw * 0.56);
     }
 }
 
 @media only screen and (max-width: 800px) {
     .index-section {
-        padding: 5px;
+        padding: 20px;
     }
     .big-h1 {
         font-size: calc(3vw + 10px);
+    }
+    .bottom-h2 {
+        font-size: 15px;
     }
     .section3 {
         height: auto
@@ -269,16 +285,32 @@
         font-size: calc(4vw + 10px);
         color: black;
     }
+    
     .section1-p {
         font-size: calc(2vw + 10px);
     }
     .map {
         width: min(500px, 90%);
     }
+    .section1a .big-h1 {
+        padding: 0px 0px 20px 0px;
+    }
     .section3-p {
         font-size: calc(2vw + 10px);
     }
-    .bottom-h2 {
-        font-size: 2vw;
+    .section2 {
+        height: calc(100vw * 0.9);
+        min-height: 0;
+    }
+    .section2 .big-h1 {
+        top: 20px;
+    }
+    .swiper {
+        width: 100vw;
+        left: 0;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        height: calc(100vw * 0.56);
     }
 }

@@ -66,6 +66,23 @@
     width: 150px;
     padding: 0px 15px;
 }
+.page-quote {
+    font-family: var(--poppinsfont);
+    font-size: 16px;
+    text-align: justify;
+    color: black;
+}
+.page-quote-header {
+    font-family: var(--poppinsfont);
+    font-size: 18px;
+    text-align: justify;
+    color: black;
+    text-transform: uppercase;
+    text-align: center;
+}
+#more-proclamation {
+    display: none;
+}
 
 @media only screen and (max-width: 1100px) {
     .page-content {
@@ -109,5 +126,8 @@
         height: calc(100vw * 0.56);
         float: none !important;
         margin: 0 !important;
+    }
+    .patron-div h2 {
+        font-size: 1.3em;
     }
 }

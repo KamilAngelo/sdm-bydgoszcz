@@ -43,6 +43,7 @@ body {
 }
 .content {
     padding: 50px 50px 0px 50px;
+    box-sizing: border-box;
     max-width: 1200px;
     width: auto;
     display: flex;
@@ -241,7 +242,10 @@ footer {
     background-color: darkgreen;
     padding: 10px;
 }
-
+.footer-icon {
+    width: 40px;
+    cursor: pointer;
+}
 
 
 @media only screen and (max-width: 1100px) {

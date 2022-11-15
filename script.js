@@ -39,28 +39,21 @@ iframe_element.onclick = function() {
     let yt_player = document.getElementById('movie_player')
     if (yt_player.classList.contains('playing-mode')) {alert('playing-mode')}
     else {alert('pause-mode')}
-    alert('dasnasij')
-
 }
 
     
 const swiper = new Swiper('.swiper', {
-    // Optional parameters
     direction: 'horizontal',
     loop: true,
-  
-    // If we need pagination
     pagination: {
       el: '.swiper-pagination',
     },
   
-    // Navigation arrows
     navigation: {
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev',
     },
   
-    // And if we need scrollbar
     scrollbar: {
       el: '.swiper-scrollbar',
     },
