@@ -24,6 +24,15 @@
             <p class="page-p">Festiwal Młodych to koncerty, widowiska taneczne, spektakle, rozgrywki sportowe, pokazy filmowe, konferencje i spotkania ewangelizacyjne w kościołach – wszystko podczas wydarzeń centralnych Światowych Dni Młodzieży w Lizbonie.</p>
             <p class="page-p">Zwyczajem ŚDM chcemy, aby jak najwięcej młodych z Polski oraz środowisk polonijnych włączyło się we wspólne przeżywanie finału ŚDM w Lizbonie. Wstępnie planujemy urządzenie sceny polskiej w Lizbonie, na której nasi artyści będą mogli zaprezentować swoje talenty muzyczne, teatralne w służbie ewangelizacji.</p>
         </div>
+        <a id="list-biskupa"></a>
+        <div class="bar" style="margin-top: 30px;"></div>
+        <div class="page-section">
+            <div class="content">
+                <h1 class="page-h1" style="text-align: center;">List biskupa Krzysztofa Włodarczyka do Młodych</h1>
+                <img class="full-img" src="<?php bloginfo('template_url'); ?>/media/listdomlodych.jpg"/>
+                <img class="full-img" src="<?php bloginfo('template_url'); ?>/media/listdomlodych2.jpg"/>
+            </div>
+        </div>
         <div class="bar" style="margin-top: 30px;"></div>
         <div class="page-section">
             <h1 class="page-h1" style="text-align: center;">Orędzie Papieża Franciszka</h1>
@@ -63,7 +72,7 @@
         <div class="bar" style="margin-top: 30px;"></div>
         <div class="page-section">
             <h1 class="page-h1" style="text-align: center;">Modlitwa za ŚDM</h1>
-            <p class="page-p" style="border-radius: 30px; text-align: left;">Maryjo, Pani Nawiedzenia,<br/>
+            <p class="page-p" style="border-radius: 30px; text-align: center;">Maryjo, Pani Nawiedzenia,<br/>
                 która z pośpiechem poszłaś w góry, by spotkać Elżbietę,<br/>
                 poprowadź nas na spotkanie ze wszystkimi, którzy na nas czekają,<br/>
                 abyśmy zanieśli im żywą Ewangelię: Jezusa Chrystusa, Twojego Syna i naszego Pana!<br/>

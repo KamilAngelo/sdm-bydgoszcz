@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 <div class="container">
-    <div class="content">
+    <div class="content" style="padding-top: 50px;">
         <h2>Masz pytanie?</h2>
         <p>Skontaktuj się z diecezjalnym Koordynatorem: </p>        
         <p class="email-address"><a href="mailto:stippahenryk@gmail.com" style="text-decoration: underline;">sdm.stippahenryk@gmail.com</a></p>

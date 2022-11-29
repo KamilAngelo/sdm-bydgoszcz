@@ -19,7 +19,7 @@
                 Pomysłodawcą i pierwszym gospodarzem tych Dni był św. Jan Paweł II, który zgromadził młodych w Rzymie (1984, 1985, 2000), Buenos Aires (1987), Santiago de Compostela (1989), Częstochowie (1991), Denver (1993), Manili (1995), Paryżu (1997) i Toronto (2002).
             </p>
             <p class="page-p" style="width: 100%;">
-                Po śmierci Jana Pawła II kontynuatorem pięknego dialogu Kościoła z młodymi i wielkim orędownikiem Światowych Dni Młodzieży stał się papież Benedykt XVI. Dzięki posłudze Benedykta XVI Chrystus był ciągle głoszony i adorowany przez młodych całego świata, a Kościół mógł dostrzegać swoje młode i radosne oblicze tak bardzo potrzebne współczesnemu światu.
+                Po śmierci Jana Pawła II kontynuatorem pięknego dialogu Kościoła z młodymi i wielkim orędownikiem Światowych Dni Młodzieży stał się papież Benedykt XVI, który przewodniczył kolejno spotkaniom w Kolonii (2005), Sydney (2008) i Madrycie (2011). Dzięki posłudze Benedykta XVI Chrystus był ciągle głoszony i adorowany przez młodych całego świata, a Kościół mógł dostrzegać swoje młode i radosne oblicze tak bardzo potrzebne współczesnemu światu.
             </p>
             <p class="page-p" style="width: 100%;">
                 Posługa Papieża Franciszka to kolejne spotkania w Rio de Janerio (2013), Krakowie (2016) i w Panamie (2019). Obecnie z wielkimi nadziejami oczekujemy na wspólne spotkanie w Lizbonie (2023).  

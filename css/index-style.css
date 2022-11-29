@@ -114,9 +114,17 @@
 
 }
 .section1b {
-       background-repeat: no-repeat;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
 }
-
+.section1b iframe {
+    width: 60%;
+    height: calc(60vw * 0.52);
+    margin-bottom: 20px;
+}
 .section2 {
     position: relative;
     padding: 0 !important;
@@ -231,6 +239,10 @@
     .section1a {
         padding-bottom: 150px !important;
     }
+    .section1b iframe {
+        width: 80%;
+        height: calc(80vw * 0.52);
+    }
     .map {
         width: 70%;
     }
@@ -294,6 +306,10 @@
     }
     .section1a .big-h1 {
         padding: 0px 0px 20px 0px;
+    }
+    .section1b iframe {
+        width: 100%;
+        height: calc(100vw * 0.52);
     }
     .section3-p {
         font-size: calc(2vw + 10px);

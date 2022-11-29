@@ -29,11 +29,13 @@
             </div>
             <a href="<?php echo site_url('/lizbona-2023/'); ?>"><button class="etapy-button animate__bounce">DOWIEDZ SIĘ WIĘCEJ O ETAPACH</button></a>
         </section>
-        <!-- <section class="index-section section1b" style="background-image: url('<?php bloginfo('template_url'); ?>/media/patternpad.svg');">
+        <section class="index-section section1b" style="background-image: url('<?php bloginfo('template_url'); ?>/media/patternpad.svg');">
             <h1 class="big-h1" style="color:var(--darkcontent); font-weight: 500;">
-                - tu będzie zaproszenie od księdza Biskupa -
+                Zaproszenie księdza biskupa Krzysztofa Włodarczyka
             </h1>
-        </section> -->
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/96sZxTweZNw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <h2 class="bottom-h2"><a href="<?php echo site_url('/lizbona-2023/'); ?>#list-biskupa">Całość listu biskupa</a></h2>
+        </section>
         <section class="index-section section2">
             <h1 class="big-h1 zindex10">Tak było w Panamie!</h1>
             <div class="swiper zindex10">

@@ -15,6 +15,7 @@
                     <p class="page-p">Koordynator: ks. Marcin Przystawski MSF</p>
                     <p class="page-p phone-number"><a href="tel:510744302">510744302</a></p>
                     <p class="page-p email-address"><a href="mailto:marcinmsf@op.pl">marcinmsf@op.pl</a></p>
+                    
                 </div>
                 <div>
                     <button class="more-button" type="button">Dowiedz się więcej!</button>
