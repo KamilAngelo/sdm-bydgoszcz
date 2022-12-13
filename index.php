@@ -120,6 +120,12 @@
                         <p class="page-p" style="font-size: 15px; text-align: left;">Koordynatorzy: <br />ks. Łukasz Boruch <br />ks. Łukasz Krzewiński</p>
                         <a href="<?php echo site_url('/punkty-przygotowan/'); ?>#katolik-a" style="color: white;"><button class="more-button">Więcej informacji</button></a>
                     </div>
+                    <div class="grupa-div shadow-div">
+                        <h2 class="page-h3">Grupa Bazylika</h2>
+                        <p class="page-p" style="font-size: 15px; text-align: left;">Organizator: Bazylika św. Wincentego a Paulo</p>
+                        <p class="page-p" style="font-size: 15px; text-align: left;">Koordynator: <br />ks. Dominik Jemielita CM</p>
+                        <a href="<?php echo site_url('/punkty-przygotowan/'); ?>#bazylika-a" style="color: white;"><button class="more-button">Więcej informacji</button></a>
+                    </div>
                 </div>
             </div>
         </section>

@@ -14,12 +14,11 @@
                     <p class="page-p email-address"><a href="mailto:bartlomiej.brzezinski4@gmail.com">bartlomiej.brzezinski4@gmail.com</a></p>
                     <p class="page-p">Koordynator: ks. Marcin Przystawski MSF</p>
                     <p class="page-p phone-number"><a href="tel:510744302">510744302</a></p>
-                    <p class="page-p email-address"><a href="mailto:marcinmsf@op.pl">marcinmsf@op.pl</a></p>
-                    
+                    <p class="page-p email-address"><a href="mailto:marcinmsf@op.pl">marcinmsf@op.pl</a></p>    
                 </div>
                 <div>
                     <button class="more-button" type="button">Dowiedz się więcej!</button>
-                    <p class="page-p more-about-points">Nasza grupa jest grupą powstałą ze złączenia trzech Złotowskich parafii: Wniebowzięcia NMP, św. Rocha i Piotra i Pawła Ap., w dekanatach Złotów I i Złotów II. Jest to głównie młodzież, która spotyka się w różnych grupach parafialnych na terenie swojej parafii. Przygotowujemy się do ŚDM przez szereg różnych akcji i spotkań. Opiekę nad grupą sprawują Złotowscy wikarzy: ks. Bartek, ks. Tymoteusz i ks. Marcin.</p>
+                    <p class="page-p more-about-points">Nasza grupa jest grupą powstałą ze złączenia trzech Złotowskich parafii: Wniebowzięcia NMP, św. Rocha i Piotra i Pawła Ap., w dekanatach Złotów I i Złotów II. Jest to głównie młodzież, która spotyka się w różnych grupach parafialnych na terenie swojej parafii. Przygotowujemy się do ŚDM przez szereg różnych akcji i spotkań. Opiekę nad grupą sprawują Złotowscy wikarzy: ks. Bartek, ks. Tymoteusz i ks. Marcin.</p>
                 </div>
             </div>
         </div>
@@ -74,7 +73,7 @@
                 </div>
                 <div>
                     <!-- <button class="more-button" type="button">Dowiedz się więcej!</button> -->
-                    <p class="page-p more-about-points"></p>
+                    <!-- <p class="page-p more-about-points"></p> -->
                 </div>
             </div>
         </div>
@@ -91,7 +90,7 @@
                 </div>
                 <div>
                     <!-- <button class="more-button" type="button">Dowiedz się więcej!</button> -->
-                    <p class="page-p more-about-points"></p>
+                    <!-- <p class="page-p more-about-points"></p> -->
                 </div>
             </div>
         </div>
@@ -108,7 +107,7 @@
                 </div>
                 <div>
                     <!-- <button class="more-button" type="button">Dowiedz się więcej!</button> -->
-                    <p class="page-p more-about-points"></p>
+                    <!-- <p class="page-p more-about-points"></p> -->
                 </div>
             </div>
         </div>
@@ -128,7 +127,23 @@
                 </div>
                 <div>
                     <!-- <button class="more-button" type="button">Dowiedz się więcej!</button> -->
-                    <p class="page-p more-about-points"></p>
+                    <!-- <p class="page-p more-about-points"></p> -->
+                </div>
+            </div>
+        </div>
+        <a id="bazylika-a"></a>
+        <div class="bar" style="margin-top: 30px;"></div>
+        <div class="page-section">
+            <h3 class="page-h3" style="text-align: center;">Grupa Bazylika</h3>
+            <div class="flex-row late-row" style="align-items: flex-start;">
+                <div class="shadow-div row-item">
+                    <p class="page-p">Organizator: Bazylika św. Wincentego a Paulo</p>
+                    <p class="page-p">Koordynator: ks. Dominik Jemielita CM</p>
+                    <p class="page-p phone-number"><a href="tel:780 559 861">780 559 861</a></p>
+                </div>
+                <div>
+                    <button class="more-button" type="button">Dowiedz się więcej!</button>
+                    <p class="page-p more-about-points">Grupa z bazyliki św. Wincentego liczy kilkanaście osób wyłącznie pełnoletnich. Grupa leci do Malagi 30 lipca. W Lizbonie jest od 1 do 8 sierpnia. Zapisy oraz informacje <span class="bold">do 18.12</span> u ks. Dominika Jemielity CM pod numerem 780 559 861.</p>
                 </div>
             </div>
         </div>
