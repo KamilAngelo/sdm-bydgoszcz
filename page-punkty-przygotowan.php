@@ -89,8 +89,7 @@
                     <p class="page-p email-address"><a href="mailto:stippa.henryk@gmail.com">stippa.henryk@gmail.com</a></p>
                 </div>
                 <div>
-                    <!-- <button class="more-button" type="button">Dowiedz się więcej!</button> -->
-                    <!-- <p class="page-p more-about-points"></p> -->
+                    <a href="/wp-content/uploads/2023/01/oferta_sdm.pdf" target="_blank"><button class="page-offer" type="button">Szczegółowa oferta</button></a>
                 </div>
             </div>
         </div>
